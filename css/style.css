@@ -1,0 +1,355 @@
+*{
+  @import url(//db.onlinewebfonts.com/c/2d0140a791cb2822e849b576ecb4a15b?family=ATC+Krueger);
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Anton', sans-serif;
+}
+
+img{
+    box-shadow: 0px 0px 8px #fff;
+}
+
+/* Logo Kısmı */
+
+.motion{
+    font-family: 'Verdana', sans-serif;
+    color: #2F3043;
+}
+
+.twin{
+    font-family: 'Verdana', sans-serif;
+    color: #B5281D;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.main-width {
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.hero {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background:rgba(202, 199, 199, 0.485)url(../img/background.jpg);
+    background-size: cover;
+    background-blend-mode: darken;
+    position: relative;
+    
+}
+
+.hero header .logo h2 a {
+    display: block;
+    font-size: 36px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #202537;
+    background-color: rgba(255, 255, 255, .25); 
+    background-size: cover;
+    
+}
+
+.hero header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px 30px;
+    
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    font-size: 16px;
+    font-weight: 600
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+    
+}
+
+/* Hover kısmı */
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus{
+  border-bottom: 3px solid red;
+}
+
+nav ul li.active a{
+    border-bottom: 3px solid red;
+}
+
+.content {
+    padding-top: 200px;
+}
+
+.content .main-text {
+    position: relative;
+    z-index: 2;
+}
+
+.content .main-text h1 {
+    -webkit-text-stroke: 0.1vmax black;
+    font-size: 70px;
+    line-height: 1;
+    color: white; 
+    margin: 0px 1150px 0px;
+    padding: 0px 0px 0px;
+    position: relative; bottom:50px;
+    text-transform: uppercase;
+}
+
+
+.content .main-text h4 {
+    display: inline;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    font-style: italic;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0)
+}
+
+.content .main-text h2 {
+    display: inline;
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-stroke-width: 0.9px;
+    -webkit-text-stroke-color: rgb(255, 11, 3);
+}
+
+.content .main-text a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border: 1px solid white;
+    padding: 9px 25px;
+    margin: 0px 10px 0px;
+    line-height: 1.4;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.content .main-text a:hover{
+
+    border: 2px solid #B5281D;
+    color:black
+    transition: .4s;
+    background: white
+}
+
+/* Bölgeler */
+
+.Not {
+    display: inline;
+    color:white;
+    font-size: 18px;
+    font-weight: 400;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-style:italic;
+    font-family:
+
+}
+
+font h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: black;
+    font-weight: 400;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: white;
+    height: 5px;
+}
+
+td {
+    margin: 0px 0px 0px;
+    padding: 15px 15px 0px;
+    line-height: 0.5;
+}
+
+td p {
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    line-height: 1.2;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(195, 34, 34);
+}
+
+/* Eşyalar */
+
+.baslica-esyalar {
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+    color: black;
+    font-weight: 400;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: white;
+    margin-top: 20px;
+    height: 5px;
+
+}
+
+.vahset {
+    align-items: center;
+    padding:5px 30px 0px;
+}
+
+.vahset-text {
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: rgb(195, 34, 34);
+
+}
+
+.taktik {
+    padding:20px 40px;
+
+}
+
+.taktik-text {
+    font-size: 25px;
+    color: white;
+    font-weight: 200;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #3A1E5D;
+
+}
+
+.hayat {
+    padding:20px 40px;
+}
+
+.hayat-text {
+    font-size: 25px;
+    color: white;
+    font-weight: 200;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #135434
+
+}
+
+/* Düşmanlar */
+
+.baslica-dusmanlar {
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+    color: black;
+    font-weight: 400;
+    -webkit-text-stroke-width: 0.8px;
+    -webkit-text-stroke-color: white;
+    margin-top: 10px;
+    height: 5px;
+
+}
+
+.zombi {
+    align-items: center;
+    padding: 80px 60px;
+}
+
+.zombi-text {
+    color: white;
+    padding: 20px 50px 0px 0px;
+    font-size: 18px;
+    font-weight: 400;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(195, 34, 34);
+}
+
+.bombaci {
+
+}
+
+.bombaci-text {
+    color: white;
+    padding: 20px 50px 0px 0px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(195, 34, 34);
+
+}
+
+.okcu {
+
+}
+
+.okcu-text {
+    color: white;
+    padding: 20px 50px 0px 0px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(195, 34, 34);
+}
+
+.kalkan {
+
+}
+
+.kalkan-text {
+    color: white;
+    padding: 20px 50px 0px 0px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(195, 34, 34);
+}
+
+.yarasa {
+
+}
+
+.yarasa-text {
+    color: white;
+    padding: 20px 50px 0px 0px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(195, 34, 34);
+}
+
+.phaser {
+
+}
+
+.phaser-text {
+    color: white;
+    padding: 20px 5px 0px 0px;
+    margin-left: 50px;
+    font-size: 18px;
+    font-weight: 400;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(195, 34, 34);
+}
+
+
+
+
+
+
+
