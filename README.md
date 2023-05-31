@@ -1,5 +1,7 @@
 # Dead-Cells-Wiki
 
-## Yeni css özellikleri ve hover kullanmayı öğrendiğim bir çalışma oldu.
+## My first project. I learned a lot about CSS and learned how to add hover effect on things.
+
+https://berkcantelseren.github.io/Dead-Cells-Wiki/
 
 <img src="img/Home.png">
